@@ -47,3 +47,8 @@ group :development do
 end
 
 gem 'haml-rails', '~> 0.9.0'
+
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+
+gem 'devise', '~> 3.5', '>= 3.5.6'
+
