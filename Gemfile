@@ -61,3 +61,5 @@ gem 'rails_admin'
 
 gem 'rails_12factor', group: :production
 gem 'puma'
+
+gem 'seed-fu', '~> 2.3'
