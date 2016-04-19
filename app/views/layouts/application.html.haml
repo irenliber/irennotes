@@ -16,8 +16,6 @@
     %nav
       .container
         - if user_signed_in?
-          .pull-left
-            .btn.nice-button= link_to "New Note", new_note_path
 
           .pull-right
             .btn.nice-button= link_to "Sign Out", destroy_user_session_path, method: :delete
@@ -31,3 +29,6 @@
 
 
       = yield
+
+    %footer
+      = link_to 'github', 'https://github.com/irenliber'
