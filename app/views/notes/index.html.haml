@@ -3,4 +3,7 @@
     .note-card
       %h2= link_to note.title, note_path(note)
       %p= note.content
-      %p= time_ago_in_words(note.created_at)
+      .datetime
+        %p= note.created_at.strftime("%d %b %Y в %H:%M")
+
+
