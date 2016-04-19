@@ -55,3 +55,6 @@ gem 'devise', '~> 3.5', '>= 3.5.6'
 gem 'bootstrap-sass'
 
 gem 'rails_admin'
+
+gem 'rails_12factor', group: :production
+gem 'puma'
